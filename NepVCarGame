@@ -197,7 +197,7 @@ local ef=Power
   end	
 end
 Humanoid.CameraOffset = Vector3.new(0,0,0)
-game:GetService("ReplicatedStorage").DeleteCar:FireServer(FV
+game:GetService("ReplicatedStorage").DeleteCar:FireServer(FV)
 end))
 end
 
