@@ -1,3 +1,4 @@
+local lp = game:GetService("Players").LocalPlayer.Name
 _G.Velocity = 35
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XxxXLuaLover/Stuffs/main/Reanimation"))()
 _G.loop = true
@@ -60,7 +61,7 @@ local zombies = {}
 local lastgui = nil
 local mouse = player:GetMouse()
 
-local char = game.Workspace.non
+local char = game.Workspace[lp]
 
 function bleed(frick)
 	while frick.Parent ~= nil do
