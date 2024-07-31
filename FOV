@@ -1,0 +1,4 @@
+while true do task.wait()
+if workspace.CurrentCamera.FieldOfView ~= 120 then
+workspace.CurrentCamera.FieldOfView = 120
+end end
